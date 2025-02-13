@@ -22,6 +22,6 @@ public class ConfigReader {
 
     // Get Application URL (hardcoded in Utility class)
     public String getAppUrl() {
-        return "https://todomvc.com/examples/react/dist/"; // Hardcoded URL
+        return properties.getProperty("app.URL");
     }
 }
