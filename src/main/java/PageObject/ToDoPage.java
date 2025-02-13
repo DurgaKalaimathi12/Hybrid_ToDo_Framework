@@ -63,7 +63,7 @@ public class ToDoPage {
 	    	taskButton = By.xpath(String.format(configReader.getXPath("todo.taskElement.xpath"), task));
 	        deleteButton = By.xpath(String.format(configReader.getXPath("todo.deleteButton.xpath"), task));;
 	        
-	        Thread.sleep(5000); //handled to adjust the slowness in webpage as mentioned in email
+	        Thread.sleep(10000); //handled to adjust the slowness in webpage as mentioned in email
 	        actions.moveToElement(driver.findElement(allTab)).click().perform();
 	        wait.until(ExpectedConditions.visibilityOfElementLocated(allTab));
 
