@@ -58,9 +58,6 @@ public class BaseTest {
         if (browser.equalsIgnoreCase("chrome")) {
         	System.setProperty("webdriver.chrome.driver", Paths.get(Utilities.getSystemPath(), "extlib", "chromedriver.exe").toString()); //add driver
             driver = new ChromeDriver();
-        } else if (browser.equalsIgnoreCase("firefox")) {
-        	System.setProperty("webdriver.firefox.driver", Paths.get(Utilities.getSystemPath(), "extlib", ".exe").toString()); //add driver
-            driver = new FirefoxDriver();
         } else if (browser.equalsIgnoreCase("edge")) {
             System.setProperty("webdriver.edge.driver", Paths.get(Utilities.getSystemPath(), "extlib", "msedgedriver.exe").toString());
             driver = new EdgeDriver();
