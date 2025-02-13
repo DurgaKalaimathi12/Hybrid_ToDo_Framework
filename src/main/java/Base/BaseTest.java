@@ -55,12 +55,25 @@ public class BaseTest {
         
         String appUrl = configReader.getAppUrl();
        
-        if (browser.equalsIgnoreCase("chrome")) {
+       if (browser.equalsIgnoreCase("chrome")) {
         	System.setProperty("webdriver.chrome.driver", Paths.get(Utilities.getSystemPath(), "extlib", "chromedriver.exe").toString()); //add driver
-            driver = new ChromeDriver();
+        	ChromeOptions options = new ChromeOptions();
+
+			if (headless.equalsIgnoreCase("true")) {
+                options.addArguments("--headless");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--window-size=1920x1080");
+            }
+            driver = new ChromeDriver(options);
         } else if (browser.equalsIgnoreCase("edge")) {
             System.setProperty("webdriver.edge.driver", Paths.get(Utilities.getSystemPath(), "extlib", "msedgedriver.exe").toString());
-            driver = new EdgeDriver();
+            EdgeOptions options = new EdgeOptions();
+            if (headless.equalsIgnoreCase("true")) {
+                options.addArguments("--headless");
+                options.addArguments("--disable-gpu");
+                options.addArguments("--window-size=1920x1080");
+            }
+            driver = new EdgeDriver(options);
         } else {
             throw new IllegalArgumentException("Browser not supported");
         }
