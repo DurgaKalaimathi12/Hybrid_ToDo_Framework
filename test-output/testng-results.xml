@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Adding task: Cucumber BDD]]>
+    </line>
+    <line>
+      <![CDATA[Adding task: Selenium]]>
+    </line>
+    <line>
+      <![CDATA[Adding task: Cypress]]>
+    </line>
+    <line>
+      <![CDATA[Completing task: Selenium]]>
+    </line>
+    <line>
+      <![CDATA[Deleting task: Cucumber BDD]]>
+    </line>
+    <line>
+      <![CDATA[Editing task: Cypress]]>
+    </line>
+    <line>
+      <![CDATA[Edit task now changed to: CypressAutomation]]>
+    </line>
+    <line>
+      <![CDATA[Filter check -> Adding task: API Postman]]>
+    </line>
+    <line>
+      <![CDATA[Filter check -> Verifying 'All' tab contains task: API Postman]]>
+    </line>
+    <line>
+      <![CDATA[Filter check -> Verifying 'Active' tab contains task: API Postman]]>
+    </line>
+    <line>
+      <![CDATA[Filter check -> Adding task: Jmeter]]>
+    </line>
+    <line>
+      <![CDATA[Filter check -> Verifying 'All' tab contains task: Jmeter]]>
+    </line>
+    <line>
+      <![CDATA[Filter check -> Verifying 'Active' tab contains task: Jmeter]]>
+    </line>
+    <line>
+      <![CDATA[Filter check -> Adding task: Jenkins]]>
+    </line>
+    <line>
+      <![CDATA[Filter check -> Verifying 'All' tab contains task: Jenkins]]>
+    </line>
+    <line>
+      <![CDATA[Filter check -> Verifying 'Active' tab contains task: Jenkins]]>
+    </line>
+    <line>
+      <![CDATA[Filter check -> Mark To-Do as Completed: API Postman]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-13T13:40:24 SGT" name="CrossBrowserHybridSuite" finished-at="2025-02-13T13:40:39 SGT" duration-ms="14380">
+    <groups>
+    </groups>
+    <test started-at="2025-02-13T13:40:24 SGT" name="EdgeTest" finished-at="2025-02-13T13:40:39 SGT" duration-ms="14380">
+      <class name="TestPackage.ToDoTest">
+        <test-method is-config="true" signature="setupExtentReport()[pri:0, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:24 SGT" name="setupExtentReport" finished-at="2025-02-13T13:40:24 SGT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtentReport -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:24 SGT" name="setup" finished-at="2025-02-13T13:40:25 SGT" duration-ms="1121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddToDos(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:26 SGT" name="testAddToDos" data-provider="taskDataByActionAndTestCaseAdd" finished-at="2025-02-13T13:40:26 SGT" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cucumber BDD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ADD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testAddToDos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no amendment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Adding task: Cucumber BDD]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddToDos -->
+        <test-method signature="testAddToDos(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:26 SGT" name="testAddToDos" data-provider="taskDataByActionAndTestCaseAdd" finished-at="2025-02-13T13:40:26 SGT" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ADD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testAddToDos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no amendment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Adding task: Selenium]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddToDos -->
+        <test-method signature="testAddToDos(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:26 SGT" name="testAddToDos" data-provider="taskDataByActionAndTestCaseAdd" finished-at="2025-02-13T13:40:27 SGT" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cypress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ADD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testAddToDos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no amendment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Adding task: Cypress]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testAddToDos -->
+        <test-method signature="testMarkTasksAsCompleted(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:27 SGT" name="testMarkTasksAsCompleted" data-provider="taskDataForMarkCompleted" finished-at="2025-02-13T13:40:27 SGT" duration-ms="366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[COMPLETE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testMarkToDosAsCompleted]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no amendment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Completing task: Selenium]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testMarkTasksAsCompleted -->
+        <test-method signature="testDeleteTasks(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:27 SGT" name="testDeleteTasks" data-provider="taskDataForDelete" finished-at="2025-02-13T13:40:33 SGT" duration-ms="5705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cucumber BDD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DELETE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testDeleteToDos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no amendment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Deleting task: Cucumber BDD]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testDeleteTasks -->
+        <test-method signature="testEditTask(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:33 SGT" name="testEditTask" data-provider="taskDataForEdit" finished-at="2025-02-13T13:40:36 SGT" duration-ms="2763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cypress]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EDIT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testEditToDos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Automation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Editing task: Cypress]]>
+            </line>
+            <line>
+              <![CDATA[Edit task now changed to: CypressAutomation]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testEditTask -->
+        <test-method signature="testFilterToDos(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:36 SGT" name="testFilterToDos" data-provider="taskDataByActionAndTestCaseAddFilter" finished-at="2025-02-13T13:40:36 SGT" duration-ms="454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API Postman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ADD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testFilterToDos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no amendment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Filter check -> Adding task: API Postman]]>
+            </line>
+            <line>
+              <![CDATA[Filter check -> Verifying 'All' tab contains task: API Postman]]>
+            </line>
+            <line>
+              <![CDATA[Filter check -> Verifying 'Active' tab contains task: API Postman]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFilterToDos -->
+        <test-method signature="testFilterToDos(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:36 SGT" name="testFilterToDos" data-provider="taskDataByActionAndTestCaseAddFilter" finished-at="2025-02-13T13:40:36 SGT" duration-ms="339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jmeter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ADD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testFilterToDos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no amendment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Filter check -> Adding task: Jmeter]]>
+            </line>
+            <line>
+              <![CDATA[Filter check -> Verifying 'All' tab contains task: Jmeter]]>
+            </line>
+            <line>
+              <![CDATA[Filter check -> Verifying 'Active' tab contains task: Jmeter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFilterToDos -->
+        <test-method signature="testFilterToDos(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:5, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:36 SGT" name="testFilterToDos" data-provider="taskDataByActionAndTestCaseAddFilter" finished-at="2025-02-13T13:40:37 SGT" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jenkins]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ADD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testFilterToDos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no amendment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Filter check -> Adding task: Jenkins]]>
+            </line>
+            <line>
+              <![CDATA[Filter check -> Verifying 'All' tab contains task: Jenkins]]>
+            </line>
+            <line>
+              <![CDATA[Filter check -> Verifying 'Active' tab contains task: Jenkins]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFilterToDos -->
+        <test-method signature="testFilterMarkTasksAsCompleted(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:37 SGT" name="testFilterMarkTasksAsCompleted" data-provider="taskDataByActionAndTestCaseCompleteFilter" finished-at="2025-02-13T13:40:37 SGT" duration-ms="450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API Postman]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[COMPLETE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[testFilterToDos]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[no amendment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Filter check -> Mark To-Do as Completed: API Postman]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFilterMarkTasksAsCompleted -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:37 SGT" name="tearDown" finished-at="2025-02-13T13:40:39 SGT" duration-ms="1401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="closeExtentReport()[pri:0, instance:TestPackage.ToDoTest@4dbb42b7]" started-at="2025-02-13T13:40:39 SGT" name="closeExtentReport" finished-at="2025-02-13T13:40:40 SGT" duration-ms="910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeExtentReport -->
+      </class> <!-- TestPackage.ToDoTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- CrossBrowserHybridSuite -->
+</testng-results>

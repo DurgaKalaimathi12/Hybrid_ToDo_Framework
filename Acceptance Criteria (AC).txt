@@ -1,0 +1,32 @@
+1. Acceptance Criteria (AC) for the User Story
+As a user, I should be able to manage my todos effectively.
+
+Acceptance Criteria:
+Add a To-Do: The user should be able to enter a task and add it to the list. 
+(type your to do task "eat" and press enter, ensure 'All' and 'Active' tab have your to do task)
+
+
+Mark To-Do as Completed: The user should be able to mark a task as completed.  
+(ensure 'Completed' tab should have the completed task where the checkbox is clicked with a strike on it and 'Active' tab don't have the completed task)
+
+
+Delete a To-Do: The user should be able to remove a task from the list.  
+(by clicking the X while mouse hover the to do task added and check if the task is not present in All tab anymore)
+
+
+Filter To-Dos: The user should be able to filter tasks (All, Active, Completed). 
+(add at least 3 todos and navigate all the tabs and return the tasks)
+
+
+Persistent Data: The list should persist even after refreshing the page. 
+(i dont think this UI supports persistent data if page loaded)
+
+
+Empty Input Validation: The app should not allow adding an empty to-do. 
+(no response if no input and pressed ENTER- dont support)
+
+
+
+
+
+
