@@ -20,7 +20,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
-
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeOptions;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -47,9 +48,9 @@ public class BaseTest {
     }
 
 
-    @Parameters("browser")
+    @Parameters({"browser","headless"})
     @BeforeClass
-    public void setup(String browser) throws InterruptedException, IOException {
+    public void setup(String browser, String headless) throws InterruptedException, IOException {
     	
     	configReader = new ConfigReader(Paths.get(Utilities.getSystemPath(), "src", "test", "resources", "config.properties").toString());
         
