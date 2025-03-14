@@ -2,7 +2,7 @@
 <suite name="CrossBrowserHybridSuite" parallel="tests" thread-count="2">
     <test name="EdgeTest">
         <parameter name="browser" value="edge"/>
-        <parameter name="headless" value="false"/>
+        <parameter name="headless" value="true"/>
         <classes>
             <class name="TestPackage.ToDoTest"/>
         </classes>
